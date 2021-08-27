@@ -1,0 +1,41 @@
+{
+  "name": "openis",
+  "version": "0.0.1",
+  "description": "Open Internal Services for Discord servers",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "dev": "nodemon",
+    "lint": "prettier --check src/",
+    "format": "prettier --write src/",
+    "lint:root": "prettier --check .",
+    "format:root": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noxturnix/OpenIS.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Anarchy",
+    "Dick"
+  ],
+  "author": "Noxturnix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Noxturnix/OpenIS/issues"
+  },
+  "homepage": "https://github.com/Noxturnix/OpenIS#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.2",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
