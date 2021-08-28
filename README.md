@@ -18,6 +18,8 @@ Or [click here](https://discord.com/api/oauth2/authorize?client_id=8809969499338
 
 Thank you for considering contributing to this project. I, as the project owner, didn't expected anyone in Thailand will give ~~a fuck~~ an attention in contributing to it at all. But if you do, please check [CONTRIBUTE.md](CONTRIBUTE.md). I'd appreciate it
 
+Also note that every changes on "production" branch will be instantly (0 - 5 minutes) applied to OpenIS bot. Please only work on other branches. I (the project owner) will merge them from "main" branch manually
+
 ## FAQs
 
 #### Q: Am I allowed to copy the codes?
