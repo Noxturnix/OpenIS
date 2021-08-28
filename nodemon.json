@@ -1,5 +1,5 @@
 {
-  "watch": ["src"],
+  "watch": ["src", ".env"],
   "ext": "*",
-  "exec": "yarn format && ts-node ./src/index.ts"
+  "exec": "yarn format && yarn clean && yarn build && yarn start"
 }
