@@ -6,11 +6,13 @@ Open Internal Services for Discord servers
 
 ## What is OpenIS?
 
-OpenIS is ~~the best Discord bot <abbr title="First working open source Discord bot">in Thailand</abbr>. If you want to grab some codes and put them in your proprietary project then go ahead, this project is [MIT License](#license)'d, and don't forget to put the copyright notice if you are distributing this project~~ AN OPEN SOURCE ANARCHY DISCORD BOT
+OpenIS is ~~the best Discord bot <abbr title="First working open source Discord bot">in Thailand</abbr>. If you want to grab some codes and put them in your proprietary project then go ahead, this project is [MIT License](#license)'d, and don't forget to put the copyright notice if you are distributing this project~~ **AN OPEN SOURCE ANARCHY DISCORD BOT**
 
 ## Add bot to a server
 
-Soon&trade;
+Use this [permission calculator](https://discordapi.com/permissions.html) to generate OAuth URL. Use `880996949933838356` as "Client ID"
+
+Or [click here](https://discord.com/api/oauth2/authorize?client_id=880996949933838356&permissions=8&scope=bot%20applications.commands) for full permissions
 
 ## How to contribute
 
