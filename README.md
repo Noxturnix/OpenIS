@@ -48,6 +48,12 @@ Dick
 
 Exactly, but if you want to use this project in your organization then may your organization become a meme
 
+## Sponsor
+
+The hosting server is provided by [Gcies](https://gcies.net/)
+
+![Gcies logo](assets/gcies.svg)
+
 ## License
 
 See [LICENSE.md](LICENSE.md) (MIT License)
