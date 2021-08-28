@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [production]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Push to Dokku server
+        uses: dokku/github-action@v1.0.1
+        with:
+          branch: production
+          git_remote_url: "ssh://dokku@gcies.noxt.us:14422/openis"
+          ssh_private_key: ${{ secret.DOKKU_SSH_PRIVATE_KEY }}
