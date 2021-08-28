@@ -19,4 +19,4 @@ jobs:
         with:
           branch: production
           git_remote_url: "ssh://dokku@gcies.noxt.us:14422/openis"
-          ssh_private_key: ${{ secret.DOKKU_SSH_PRIVATE_KEY }}
+          ssh_private_key: ${{ secrets.DOKKU_SSH_PRIVATE_KEY }}
