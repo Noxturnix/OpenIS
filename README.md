@@ -54,7 +54,7 @@ Exactly, but if you want to use this project in your organization then may your 
 
 The hosting server is provided by [Gcies](https://gcies.net/)
 
-[![Gcies logo](assets/gcies.svg)](https://gcies.net/)
+[<p align="center"><img src="assets/gcies.svg" alt="Gcies logo" width="200" /></p>](https://gcies.net/)
 
 ## License
 
