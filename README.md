@@ -52,7 +52,7 @@ Exactly, but if you want to use this project in your organization then may your 
 
 The hosting server is provided by [Gcies](https://gcies.net/)
 
-![Gcies logo](assets/gcies.svg)
+[![Gcies logo](assets/gcies.svg)](https://gcies.net/)
 
 ## License
 
