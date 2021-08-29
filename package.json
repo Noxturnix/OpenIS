@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node .",
     "build": "tsc",
+    "build:test": "tsc --noEmit",
     "dev": "nodemon",
     "clean": "rimraf dist/",
     "lint": "prettier --check src/",
