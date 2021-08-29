@@ -16,7 +16,7 @@ OpenIS is the ~~best Discord bot <abbr title="First working open source Discord 
 
 Use this [permissions calculator](https://discordapi.com/permissions.html) to add bot with specific permissions. Use `880996949933838356` as "Client ID"
 
-Or [click here](https://discord.com/api/oauth2/authorize?client_id=880996949933838356&permissions=8&scope=bot%20applications.commands) for full permissions
+Or [click here](https://discord.com/api/oauth2/authorize?client_id=880996949933838356&permissions=8&scope=bot%20applications.commands) for full permissions (not recommended, as we can't guarantee that someone will put malicious codes in future)
 
 ## How to contribute
 
