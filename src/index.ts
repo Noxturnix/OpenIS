@@ -30,3 +30,9 @@ shardingManager.spawn().catch((reason: Error) => {
   console.log(`Cannot spawning shards: ${reason.message}`);
   process.exit(1);
 });
+
+process.on("SIGINT", () => {
+  console.log("Removing all shard listeners");
+  shardingManager.removeAllListeners();
+  process.exit(0);
+});

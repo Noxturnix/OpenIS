@@ -1,5 +1,6 @@
 {
   "watch": ["src", ".env"],
   "ext": "*",
-  "exec": "yarn format && yarn build:clean && yarn start"
+  "exec": "yarn format && yarn build:clean && yarn start",
+  "signal": "SIGINT"
 }
