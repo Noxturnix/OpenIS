@@ -32,7 +32,6 @@ shardingManager.spawn().catch((reason: Error) => {
 });
 
 process.on("SIGINT", () => {
-  console.log("Removing all shard listeners");
-  shardingManager.removeAllListeners();
+  console.log("Exiting...");
   process.exit(0);
 });
