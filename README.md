@@ -8,7 +8,7 @@ Open Internal Services for Discord servers
 
 ## What is OpenIS?
 
-OpenIS is ~~the best Discord bot <abbr title="First working open source Discord bot">in Thailand</abbr>. If you want to grab some codes and put them in your proprietary project then go ahead, this project is [MIT License](#license)'d, and don't forget to put the copyright notice if you are distributing this project~~ **AN OPEN SOURCE ANARCHY DISCORD BOT**
+OpenIS is the ~~best Discord bot <abbr title="First working open source Discord bot">in Thailand</abbr>. If you want to grab some codes and put them in your proprietary project then go ahead, this project is [MIT License](#license)'d, and don't forget to put the copyright notice if you are distributing this project~~ **MOST UNSTABLE OPEN SOURCE ANARCHY DISCORD BOT**
 
 ## Add bot to a server
 
