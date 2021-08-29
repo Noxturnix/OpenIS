@@ -1,9 +1,10 @@
 name: Deploy
 
 on:
-  push:
-    branches: [production]
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
+    name: Deploy
 
 jobs:
   deploy:
@@ -17,6 +18,6 @@ jobs:
       - name: Push to Dokku server
         uses: dokku/github-action@v1.0.1
         with:
-          branch: production
+          branch: main
           git_remote_url: "ssh://dokku@gcies.noxt.us:14422/openis"
           ssh_private_key: ${{ secrets.DOKKU_SSH_PRIVATE_KEY }}
