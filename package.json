@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node .",
     "build": "tsc",
+    "build:clean": "yarn clean && yarn build",
     "build:test": "tsc --noEmit",
     "dev": "nodemon",
     "clean": "rimraf dist/",
