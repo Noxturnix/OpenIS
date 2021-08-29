@@ -7,6 +7,12 @@ const messageCommands: MessageCommand[] = [
     fn(functionCall) {
       functionCall.message.reply("pong");
     }
+  },
+  {
+    command: [createCommandString("pong")],
+    fn(functionCall) {
+      functionCall.message.reply("ping?");
+    }
   }
 ];
 
