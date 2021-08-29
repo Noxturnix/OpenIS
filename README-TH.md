@@ -1,5 +1,5 @@
 # OpenIS
 
-[English](README.md) | [Thai](README-TH.md)
+[English](README.md) | [ไทย](README-TH.md)
 
 กระโปก
