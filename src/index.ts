@@ -1,6 +1,6 @@
 import { ShardingManager } from "discord.js";
 import { resolve } from "path";
-import loadEnv from "./libs/loadEnv";
+import loadEnv from "./lib/loadEnv";
 
 loadEnv();
 
