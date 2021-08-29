@@ -1,5 +1,7 @@
 # OpenIS
 
+[English](README.md) | [Thai](README-TH.md)
+
 Open Internal Services for Discord servers
 
 ![OpenIS Banner](assets/banner.png)
