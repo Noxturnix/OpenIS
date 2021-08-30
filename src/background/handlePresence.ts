@@ -5,7 +5,7 @@ export const setPresence = (client: Client) => {
   client.user?.setPresence({
     activities: [
       {
-        name: `Commit ${execSync("git log --format=%cr -n 1 HEAD")}`
+        name: `Committed ${execSync("git log --format=%cr -n 1 HEAD")}`
       }
     ]
   });
