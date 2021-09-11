@@ -3,7 +3,7 @@ import messageCommands from "../command/messageCommands";
 import { MessageCommandFunctionCall } from "../interface/MessageCommand";
 
 export default (message: Message) => {
-  for (let i = 0; i < messageCommands.length; i++) {
+  commandLoop: for (let i = 0; i < messageCommands.length; i++) {
     let messageCommand = messageCommands[i];
     let trimmedMessage = message.content.trim();
 
@@ -27,7 +27,7 @@ export default (message: Message) => {
 
           messageCommand.fn(messageCommandFunctionCall);
 
-          break;
+          break commandLoop;
         }
       }
     }
