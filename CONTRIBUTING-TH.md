@@ -1,5 +1,7 @@
 # วิธี contribute
 
+[English](CONTRIBUTING.md) | [ไทย](CONTRIBUTING-TH.md)
+
 อนุญาตให้เพิ่ม/แก้ไข feature ที่ไม่อันตราย
 
 ใช้คำสั่ง `yarn format` ก่อนส่ง pull request ทุกครั้ง

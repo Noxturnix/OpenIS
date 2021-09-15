@@ -24,7 +24,7 @@ Or [click here](https://discord.com/api/oauth2/authorize?client_id=8809969499338
 
 ## How to contribute
 
-Thank you for considering contributing to this project. I, as the project owner, didn't expected anyone in Thailand will give ~~a fuck~~ an attention in contributing to it at all. But if you do, please check [CONTRIBUTE.md](CONTRIBUTE.md). I'd appreciate it
+Thank you for considering contributing to this project. I, as the project owner, didn't expected anyone in Thailand will give ~~a fuck~~ an attention in contributing to it at all. But if you do, please check [CONTRIBUTING.md](CONTRIBUTING.md). I'd appreciate it
 
 ## FAQs
 
