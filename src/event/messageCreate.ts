@@ -10,8 +10,12 @@ export default (message: Message) => {
     if (!message.author.bot || messageCommand.allowBot) {
       for (let j = 0; j < messageCommand.command.length; j++) {
         let command = messageCommand.command[j].trim();
+        let compareMessage = messageCommand.ignoreCase
+          ? trimmedMessage.toLowerCase()
+          : trimmedMessage;
+        let compareCommand = messageCommand.ignoreCase ? command.toLowerCase() : command;
 
-        if (trimmedMessage === command || trimmedMessage.startsWith(command + " ")) {
+        if (compareMessage === compareCommand || compareMessage.startsWith(compareCommand + " ")) {
           let commandArgs = trimmedMessage
             .substr(command.length)
             .trimStart()
